@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <top.guuguo.dividerview.DividerTextView
+            android:id="@+id/dtv_click_add_divider"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="点击切换"
+            android:textColor="@color/white"
+            app:dv_backgroundColor="@color/colorPrimary"
+            app:dv_backgroundColorPress="@color/white30"
+            app:dv_textColorPress="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <top.guuguo.dividerview.DividerTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Text1"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:dv_align="dv_BC"
+                    app:dv_dividerColor="@color/white"
+                    app:dv_dividerWidth="3dp" />
+
+                <top.guuguo.dividerview.DividerTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Text2"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <top.guuguo.dividerview.DividerTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@android:drawable/ic_lock_power_off"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Item1"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:dv_align="dv_BC"
+                    app:dv_dividerColor="@color/white"
+                    app:dv_dividerWidth="3dp"
+                    app:dv_marginStart="50dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@android:drawable/ic_lock_lock"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Item2"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <top.guuguo.dividerview.DividerTextView
+                android:id="@+id/text_3_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:dv_backgroundColor="@color/colorPrimary"
+                app:dv_dividerColor="@color/white"
+                app:dv_dividerWidth="3dp" />
+
+            <top.guuguo.dividerview.DividerTextView
+                android:id="@+id/text_3_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:dv_align="dv_LC"
+                app:dv_dividerColor="@color/white"
+                app:dv_dividerLength="0dp"
+                app:dv_dividerWidth="3dp"
+                app:dv_margin="25dp" />
+
+            <top.guuguo.dividerview.DividerTextView
+                android:id="@+id/text_3_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:dv_align="dv_LC"
+                app:dv_dividerColor="@color/white"
+                app:dv_dividerLength="0dp"
+                app:dv_dividerWidth="3dp"
+                app:dv_margin="40dp" />
+
+            <top.guuguo.dividerview.DividerTextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:dv_align="dv_LC"
+                app:dv_dividerColor="@color/white"
+                app:dv_dividerLength="0dp"
+                app:dv_dividerWidth="3dp"
+                app:dv_margin="25dp" />
+        </LinearLayout>
+
+        <top.guuguo.dividerview.DividerLinearLayout
+            android:id="@+id/dll_divider"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            app:dv_align="dv_LT"
+            app:dv_backgroundColor="@color/colorPrimary"
+            app:dv_dividerColor="@color/white"
+            app:dv_dividerLength="40dp"
+            app:dv_dividerWidth="3dp"
+            app:dv_marginStart="16dp">
+
+            <top.guuguo.dividerview.DividerTextView
+                android:id="@+id/text_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Text1"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:dv_align="dv_TL"
+                app:dv_dividerColor="@color/white"
+                app:dv_dividerLength="120dp"
+                app:dv_dividerWidth="3dp"
+                app:dv_marginStart="16dp" />
+
+            <top.guuguo.dividerview.DividerTextView
+                android:id="@+id/text_4_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Text2"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:dv_align="dv_TC"
+                app:dv_dividerColor="@color/white"
+                app:dv_dividerLength="120dp"
+                app:dv_dividerWidth="3dp"
+                app:dv_marginStart="16dp" />
+
+            <top.guuguo.dividerview.DividerTextView
+                android:id="@+id/text_4_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Text2"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:dv_align="dv_TR"
+                app:dv_dividerColor="@color/white"
+                app:dv_dividerLength="120dp"
+                app:dv_dividerWidth="3dp"
+                app:dv_marginStart="16dp" />
+
+            <top.guuguo.dividerview.DividerTextView
+                android:id="@+id/text_4_4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Text3"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:dv_align="dv_TC"
+                app:dv_dividerColor="@color/white"
+                app:dv_dividerLength="0dp"
+                app:dv_dividerWidth="3dp"
+                app:dv_margin="16dp" />
+        </top.guuguo.dividerview.DividerLinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
