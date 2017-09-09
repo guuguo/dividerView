@@ -1,4 +1,4 @@
-工具类库
+DividerView
 =======
 [![](https://jitpack.io/v/guuguo/dividerview.svg)](https://jitpack.io/#guuguo/androidLib)
 
