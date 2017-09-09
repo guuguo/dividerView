@@ -1,6 +1,6 @@
 DividerView
 =======
-[![](https://jitpack.io/v/guuguo/dividerview.svg)](https://jitpack.io/#guuguo/androidLib)
+[![](https://jitpack.io/v/guuguo/dividerView.svg)](https://jitpack.io/#guuguo/dividerView)
 
 不必要额外新增view来添加分隔线
 # 使用
