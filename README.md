@@ -8,8 +8,9 @@
 compile "com.github.guuguo.dividerview:$version" // version 是 jitpack 徽章的 version
 ```
 # 预览图片
-<img src="http://opqb3chot.bkt.clouddn.com/dividerview_shot2.png" width = "250" height = "440" alt="图片名称" align=center />
-<img src="http://opqb3chot.bkt.clouddn.com/dividerview_shot1.png" width = "250" height = "440" alt="图片名称" align=center />
+
+![image](http://opqb3chot.bkt.clouddn.com/dividerview_shot2.png?imageView/2/w/280/q/100)
+![image](http://opqb3chot.bkt.clouddn.com/dividerview_shot1.png?imageView/2/w/280/q/100)
 
 # 参考的库
 
