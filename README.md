@@ -5,7 +5,7 @@ DividerView
 不必要额外新增view来添加分隔线
 # 使用
 ```groovy
-compile "com.github.guuguo.dividerview:$version" // version 是 jitpack 徽章的 version
+compile 'com.github.guuguo:dividerView:$version' // version 是 jitpack 徽章的 version
 ```
 # 预览图片
 
