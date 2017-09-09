@@ -8,8 +8,8 @@
 compile "com.github.guuguo.dividerview:$version" // version 是 jitpack 徽章的 version
 ```
 # 预览图片
-<img src="http://opqb3chot.bkt.clouddn.com/dividerview_shot2.png" width = "280" height = "510" alt="图片名称" align=center />
-<img src="http://opqb3chot.bkt.clouddn.com/dividerview_shot1.png" width = "280" height = "510" alt="图片名称" align=center />
+<img src="http://opqb3chot.bkt.clouddn.com/dividerview_shot2.png" width = "250" height = "440" alt="图片名称" align=center />
+<img src="http://opqb3chot.bkt.clouddn.com/dividerview_shot1.png" width = "250" height = "440" alt="图片名称" align=center />
 
 # 参考的库
 
@@ -69,7 +69,8 @@ llB.delegate.addDivider(line);
 <attr name="dv_isRipple"/>
 ```
 > 重要枚举参数,分隔线的位置
-```
+
+```xml
 <attr name="dv_align">
     <enum name="dv_NO" value="0"/> //没有线，默认
     <enum name="dv_TL" value="1"/> //上左 TopLeft
