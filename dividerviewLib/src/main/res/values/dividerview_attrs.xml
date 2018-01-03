@@ -93,5 +93,35 @@
         <attr name="dv_textColorPress"/>
         <attr name="dv_dividerColorFocus"/>
         <attr name="dv_isRipple"/>
-    </declare-styleable> 
+    </declare-styleable>
+    <declare-styleable name="DividerFrameLayout">
+        <attr name="dv_dividerWidth"/>
+        <attr name="dv_dividerLength"/>
+        <attr name="dv_dividerColor"/>
+        <attr name="dv_marginStart"/>
+        <attr name="dv_marginEnd"/>
+        <attr name="dv_margin"/>
+        <attr name="dv_align"/>
+        <attr name="dv_backgroundColor"/>
+        <attr name="dv_backgroundColorPress"/>
+        <attr name="android:textColor"/>
+        <attr name="dv_textColorPress"/>
+        <attr name="dv_dividerColorFocus"/>
+        <attr name="dv_isRipple"/>
+    </declare-styleable>
+    <declare-styleable name="DividerRelativeLayout">
+        <attr name="dv_dividerWidth"/>
+        <attr name="dv_dividerLength"/>
+        <attr name="dv_dividerColor"/>
+        <attr name="dv_marginStart"/>
+        <attr name="dv_marginEnd"/>
+        <attr name="dv_margin"/>
+        <attr name="dv_align"/>
+        <attr name="dv_backgroundColor"/>
+        <attr name="dv_backgroundColorPress"/>
+        <attr name="android:textColor"/>
+        <attr name="dv_textColorPress"/>
+        <attr name="dv_dividerColorFocus"/>
+        <attr name="dv_isRipple"/>
+    </declare-styleable>
 </resources>
